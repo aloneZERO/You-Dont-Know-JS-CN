@@ -92,7 +92,7 @@ JavaScript通常被断言为是 *解释型* 的，因为你的JavaScript源代�
 
 有一件事情怎么强调都不过分：在你通读本章时 —— 而且你可能需要花时间读好几遍 —— 你应当通过自己编写代码来实践这些概念中的每一个。最简单的方法就是打开你手边的浏览器（Firefox，Chrome，IE，等等）的开发者工具控制台。
 
-**提示：** 一般来说，你可以使用快捷键或者菜单选项来启动开发者控制台。更多关于启动和使用你最喜欢的浏览器的控制台的细节，参见“精通开发者工具控制台”（http://blog.teamtreehouse.com/mastering-developer-tools-console）。要在控制台中一次键入多行，可以使用`<shift> + <enter>` 来移动到下一行。一旦你敲击 `<enter>`，控制台将运行你刚刚键入的任何东西。
+**提示：** 一般来说，你可以使用快捷键或者菜单选项来启动开发者控制台。更多关于启动和使用你最喜欢的浏览器的控制台的细节，参见“[精通开发者工具控制台](http://blog.teamtreehouse.com/mastering-developer-tools-console)”。要在控制台中一次键入多行，可以使用`<shift> + <enter>` 来移动到下一行。一旦你敲击 `<enter>`，控制台将运行你刚刚键入的任何东西。
 
 让我们熟悉一下在控制台中运行代码的过程。首先，我建议你在浏览器中打开一个新的标签页。我喜欢在地址栏中键入`about:blank`来这么做。然后，确认你的开发者控制台是打开的，就像我们刚刚提到的那样。
 
@@ -108,7 +108,7 @@ console.log( b );
 
 在Chrome的控制台中键入前面的代码应该会产生如下的东西：
 
-<img src="fig1.png" width="500">
+<img src="up_and_going/fig1.png" width="500">
 
 继续，试试吧。学习编程的最佳方式就是开始编码！
 
@@ -150,11 +150,11 @@ console.log( age );
 
 它应当和下面的东西很相似：
 
-<img src="fig2.png" width="500">
+<img src="up_and_going/fig2.png" width="500">
 
 一旦你点击“OK”提交输入的文本，你将会看到你输入的值被存储在变量`age`中，然后我们使用`console.log(..)`把它 *输出*：
 
-<img src="fig3.png" width="500">
+<img src="up_and_going/fig3.png" width="500">
 
 为了让我们在学习基本编程概念时使事情保持简单，本书中的例子不要求输入。但是现在你已经看到了如何使用`prompt(..)`，如果你想挑战一下自己，你可以试着在探索这些例子时使用输入。
 
@@ -209,7 +209,7 @@ console.log( a );	// 42
 
    这些操作符用于表达复合的条件（见“条件”），比如如果`a`*或者*`b`成立。
 
-**注意：** 更多细节，以及在此没有提到的其他操作符，可以参见Mozilla开发者网络（MDN）的“表达式与操作符”(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)。
+**注意：** 更多细节，以及在此没有提到的其他操作符，可以参见Mozilla开发者网络（MDN）的“[表达式与操作符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Expressions_and_Operators)”。
 
 ## 值与类型
 
