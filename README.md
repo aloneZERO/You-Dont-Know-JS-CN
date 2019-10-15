@@ -4,7 +4,7 @@
 
 ## 本地阅读
 
-首先保证本地已安装有 Node.js 环境。
+首先保证本地已安装有 [Node.js](http://nodejs.cn/download/) 环境。
 
 ```bash
 # 推荐使用 cnpm 安装下面的运行环境
@@ -15,7 +15,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 # 安装 docsify-cli
 cnpm i -g docsify-cli
 
-# 进入项目根目录 & 启动服务
+# 在项目根目录启动服务
 docsify serve docs
 ```
 打开浏览器，访问 <http://localhost:3000> 开始读书吧~
