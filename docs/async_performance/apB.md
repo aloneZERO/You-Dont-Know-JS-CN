@@ -313,7 +313,7 @@ var main = Promise.resolve( {
 
 你越需要自己的流程控制动态，可迭代序列就越显得强大。
 
-**提示：** 在 *asynquence* 的网站(https://github.com/getify/asynquence/blob/master/README.md#iterable-sequences)上可以看到更多关于可迭代序列的信息与示例。
+**提示：** 在 [*asynquence* 的网站](https://github.com/getify/asynquence/blob/master/README.md#iterable-sequences)上可以看到更多关于可迭代序列的信息与示例。
 
 ## 事件响应式
 
@@ -356,11 +356,11 @@ observable
 
 值`observable`不是一个真正的 Promise，但你可以像监听一个 Promise 那样 *监听* 它，所以它们是有密切关联的。事实上，它可以被监听很多次，而且它会在每次事件（`"foobar"`）发生时都发送通知。
 
-**提示：** 我刚刚展示过的这个模式，是响应式编程（reactive programming，也称为 RP）背后的概念和动机的 **大幅度简化**，响应式编程已经由好几种了不起的项目和语言实现/详细论述过了。RP 的一个变种是函数响应式编程（functional reactive programming，FRP），它指的是在数据流之上实施函数式编程技术（不可变性，参照完整性，等等）。“响应式”指的是随着事件的推移散布这种功能，以对事件进行应答。对此感兴趣的读者应当考虑学习“响应式可监听对象”，它源于由微软开发的神奇的“响应式扩展”库(对于 JavaScript 来说是 “RxJS”，http://rxjs.codeplex.com/)；它可要比我刚刚展示过的东西精巧和强大太多了。另外，Andre Staltz 写过一篇出色的文章(https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)，用具体的例子高效地讲解了 RP。
+**提示：** 我刚刚展示过的这个模式，是响应式编程（reactive programming，也称为 RP）背后的概念和动机的 **大幅度简化**，响应式编程已经由好几种了不起的项目和语言实现/详细论述过了。RP 的一个变种是函数响应式编程（functional reactive programming，FRP），它指的是在数据流之上实施函数式编程技术（不可变性，参照完整性，等等）。“响应式”指的是随着事件的推移散布这种功能，以对事件进行应答。对此感兴趣的读者应当考虑学习“响应式可监听对象”，它源于由微软开发的神奇的“响应式扩展”库(对于 JavaScript 来说是 “[RxJS](http://rxjs.codeplex.com/)”)；它可要比我刚刚展示过的东西精巧和强大太多了。另外，Andre Staltz 写过[一篇出色的文章](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)，用具体的例子高效地讲解了 RP。
 
 ### ES7 可监听对象
 
-在本书写作时，有一个早期ES7提案，一种称为“Observable（可监听对象）”的新数据类型(https://github.com/jhusain/asyncgenerator#introducing-observable)，它在精神上与我们在这里讲解过的相似，但是绝对更精巧。
+在本书写作时，有一个早期ES7提案，一种称为“[Observable（可监听对象）](https://github.com/jhusain/asyncgenerator#introducing-observable)”的新数据类型，它在精神上与我们在这里讲解过的相似，但是绝对更精巧。
 
 这种可监听对象的概念是，你在一个流上“监听”事件的方法是传入一个 generator —— 其实 *迭代器* 才是有趣的部分 —— 它的`next(..)`方法会为每一个事件而调用。
 
