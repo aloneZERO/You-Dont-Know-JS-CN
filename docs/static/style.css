@@ -1,0 +1,12 @@
+body,
+.content,
+.sidebar,
+.sidebar-toggle,
+.markdown-section {
+  background-color: rgba(243, 242, 238, 1) !important;
+}
+
+.docsify-copy-code-button {
+  background: #f8f8f8 !important;
+  color: #7a7a7a !important;
+}
