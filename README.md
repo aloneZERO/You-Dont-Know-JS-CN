@@ -7,13 +7,15 @@
 首先保证本地已安装有 [Node.js](http://nodejs.cn/download/) 环境。
 
 ```bash
-# 推荐使用 cnpm 安装下面的运行环境
-npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm i -g nrm
+
+# 切换国内的 npm 镜像
+nrm use taobao
 ```
 
 ```bash
 # 安装 docsify-cli
-cnpm i -g docsify-cli
+npm i -g docsify-cli
 
 # 在项目根目录启动服务
 docsify serve docs
